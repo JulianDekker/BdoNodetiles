@@ -1,3 +1,7 @@
+#root{
+  background: black;
+}
+
 .row{
   float: left;
   overflow: hidden;
@@ -6,6 +10,7 @@
 
 .row > * {
   float: left;
+  transition:0.25s ease-out all;
 }
 
 .App{
